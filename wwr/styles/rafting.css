@@ -159,31 +159,31 @@ section {
     font-weight: bold;
 }
 
-.Contact-form {
+.contact-form {
     display: grid;
     gap: 10px;
     max-width: 500px;
     margin: 0 auto;
 }
 
-.Contact-form label {
+.contact-form label {
     text-align: left;
     font-weight: bold;
 }
 
-.Contact-form input,
-.Contact-form textarea {
+.contact-form input,
+.contact-form textarea {
     padding: 10px;
     font-family: var(--body-font);
     border: 1px solid var(--accent1-color)
 }
 
-.Contact-form textarea {
+.contact-form textarea {
     height: 150px;
     resize: vertical;
 }
 
-.Contact-form button {
+.contact-form button {
     padding: 10px;
     background-color:
         var(--primary-color);
@@ -193,7 +193,7 @@ section {
     font-weight: bold;
 }
 
-.Contact-form button:hover {
+.contact-form button:hover {
     background-color:
         var(--accent1-color);
 }
