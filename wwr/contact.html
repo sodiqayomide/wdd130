@@ -38,9 +38,11 @@
         </address>
         <section>
             <h2>Find Us</h2>
+
+            <img src="images/happy-client.jpg" alt="Happy rafting client">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253682.4631031907!2d3.119137751939773!3d6.548369379806676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68280c1%3A0xdc9e87a367c3d9cb!2sLagos!5e0!3m2!1sen!2sng!4v1791135461049!5m2!1sen!2sng"
-              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              width="600" height="450" allowfullscreen="" loading="lazy"
               referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
         </section>
@@ -49,13 +51,32 @@
             <h2>Send Us a Message</h2>
 
             <form class="contact-form">
-                <label for="name">Name</label>
+                <label for="name">Name:</label>
                 <input type="text" id="name" name="name">
+
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email">
 
+                <fieldset>
+                    <legend>What is the purpose of your message?</legend>
+
+                    <label for="general">General Inquiry</label>
+                    <input type="radio" id="general" name="purpose" value="general">
+
+                    <label for="reservation">Reservation</label>
+                    <input type="radio" id="reservation" name="purpose" value="reservation">
+                    <label for="feedback">Feedback</label>
+                    <input type="radio" id="feedback" name="purpose" value="feedback">
+
+                </fieldset>
+
                 <label for="message">Message:</label>
                 <textarea id="message" name="message"></textarea>
+                <label for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                    please subscribe me to the monthly newsletter.
+                </label>
+
                 <button type="submit">Send Message</button>
             </form>
         </section>
@@ -64,6 +85,18 @@
     <footer>
         <p>© 2026 White Water Rafting | Jamiu Sodiq Ayomide</p>
 
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="facebook">
+            </a>
+
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
+            <a href="https://youtube.com">
+                <img src="images/youtube.svg" alt="YouTube">
+            </a>
+        </nav>
     </footer>
 
 </body>
